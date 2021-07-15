@@ -2,16 +2,38 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center">
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="300dp"
+        android:src="@drawable/image3" />
+
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Third Fragment"
-        android:textColor="#0F9D58"
-        android:textSize="25sp"
-        android:textStyle="bold" />
+        android:text="Earn more,\nwithout the fuss "
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/proximanovafont"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We're constantly optimizing to keep your\nplayers happier and more engaged."
+        android:layout_margin="20dp"
+        android:textColor="#88898c"
+        android:textSize="18sp"
+        android:fontFamily="@font/inter"/>
+
+
+
 
 </LinearLayout>
+

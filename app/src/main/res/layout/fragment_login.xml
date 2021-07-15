@@ -1,17 +1,137 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".LoginFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="439dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="@color/black">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:fontFamily="@font/inter"
+                android:text="No accounts? SIGN UP "
+                android:textColor="@color/white"
+                android:textSize="12sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/inter"
+                android:text="Login"
+                android:textColor="#a36775"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/inter"
+                android:text="Glad to see you back!"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="56dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/signupbutton"
+                android:hint="Email address"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:textColorHint="#54555a"
+                android:textAllCaps="false" />
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="56dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/signupbutton"
+                android:hint="Password"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:textColorHint="#54555a"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/inter"
+                android:text="Forgot password?"
+                android:textColor="#54555a" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="LOGIN Fragment"
-        android:textColor="@color/design_default_color_primary"
-        android:textSize="25sp"
-        android:textStyle="bold" />
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:text="or login with"
+        android:textColor="@color/white"
+        android:fontFamily="@font/inter"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/loginbutton"
+            android:src="@drawable/twitch_img"/>
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/loginbutton"
+            android:src="@drawable/discord_img1"/>
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/loginbutton"
+            android:src="@drawable/google_img"/>
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/loginbutton"
+            android:src="@drawable/apple_img" />
+
+
+    </LinearLayout>
+
 
 </LinearLayout>
+
