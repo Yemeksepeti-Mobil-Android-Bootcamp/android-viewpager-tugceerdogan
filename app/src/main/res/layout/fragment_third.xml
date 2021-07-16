@@ -16,7 +16,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Earn more, without the fuss "
+        android:text="@string/third_fragment_title"
         android:layout_marginHorizontal="20dp"
         android:textColor="@color/white"
         android:textSize="30sp"
@@ -26,7 +26,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="We're constantly optimizing to keep your players happier and more engaged."
+        android:text="@string/third_fragment_content"
         android:layout_margin="20dp"
         android:textColor="#88898c"
         android:textSize="18sp"

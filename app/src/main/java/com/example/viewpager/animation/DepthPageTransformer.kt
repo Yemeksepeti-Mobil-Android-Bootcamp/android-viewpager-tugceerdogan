@@ -1,4 +1,4 @@
-package com.example.viewpager
+package com.example.viewpager.animation
 
 import android.view.View
 import androidx.viewpager.widget.ViewPager

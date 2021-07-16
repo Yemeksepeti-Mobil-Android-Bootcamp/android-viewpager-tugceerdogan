@@ -4,6 +4,11 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager.widget.ViewPager
 import com.afollestad.viewpagerdots.DotsIndicator
+import com.example.viewpager.adapter.ViewPagerAdapter
+import com.example.viewpager.animation.DepthPageTransformer
+import com.example.viewpager.views.FirstFragment
+import com.example.viewpager.views.SecondFragment
+import com.example.viewpager.views.ThirdFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -21,8 +26,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun items() {
-        viewPager = findViewById(R.id.viewPager)
-        dotsIndicator  =findViewById(R.id.dotsIndicator)
+        viewPager = findViewById(R.id.view_pager)
+        dotsIndicator  =findViewById(R.id.dots_indicator)
     }
 
 
