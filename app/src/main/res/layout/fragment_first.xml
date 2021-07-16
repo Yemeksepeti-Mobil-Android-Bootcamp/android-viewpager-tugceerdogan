@@ -16,7 +16,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Welcome to \nMetafy"
+        android:text="Welcome to Metafy"
         android:layout_marginHorizontal="20dp"
         android:textColor="@color/white"
         android:textSize="30sp"
@@ -26,7 +26,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Where the greatest minds in gaming earn\nmoney playing with and teaching others."
+        android:text="Where the greatest minds in gaming earn money playing with and teaching others."
         android:layout_margin="20dp"
         android:textColor="#88898c"
         android:textSize="18sp"

@@ -16,7 +16,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Earn more,\nwithout the fuss "
+        android:text="Earn more, without the fuss "
         android:layout_marginHorizontal="20dp"
         android:textColor="@color/white"
         android:textSize="30sp"
@@ -26,13 +26,11 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="We're constantly optimizing to keep your\nplayers happier and more engaged."
+        android:text="We're constantly optimizing to keep your players happier and more engaged."
         android:layout_margin="20dp"
         android:textColor="#88898c"
         android:textSize="18sp"
         android:fontFamily="@font/inter"/>
-
-
 
 
 </LinearLayout>
